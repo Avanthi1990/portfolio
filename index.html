@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Data Analysis & Writing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="logo">YourName</div>
+        <div class="nav-links">
+          <a href="#resume">Resume</a>
+          <a href="#blogs">Blogs</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-button">Get in touch</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Data analysis, thoughtful writing, and projects that tell a story.</h1>
+          <p class="lead">
+            I build dashboards, write data-backed essays, and publish experiments that
+            help teams make confident decisions.
+          </p>
+          <div class="hero-actions">
+            <a class="primary" href="#projects">View projects</a>
+            <a class="secondary" href="#resume">Download resume</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <p class="stat">5+ years</p>
+              <span>Analytics experience</span>
+            </div>
+            <div>
+              <p class="stat">20+</p>
+              <span>Published articles</span>
+            </div>
+            <div>
+              <p class="stat">12</p>
+              <span>Dashboards shipped</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-top">
+            <span class="tag">Featured</span>
+            <span class="muted">Q3 2024</span>
+          </div>
+          <h3>Churn insights for subscription growth</h3>
+          <p>
+            A full-funnel analysis and retention playbook used to reduce churn by 18%
+            across three product tiers.
+          </p>
+          <div class="card-meta">
+            <span>SQL</span>
+            <span>Python</span>
+            <span>Looker</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Resume</p>
+            <h2>Snapshot of my experience</h2>
+          </div>
+          <a class="ghost" href="resume.pdf">Download PDF</a>
+        </div>
+        <div class="grid two">
+          <div class="resume-card">
+            <h3>Data Analyst · Momentum Labs</h3>
+            <p class="muted">2022 — Present</p>
+            <ul>
+              <li>Built KPI frameworks and weekly reporting cadences.</li>
+              <li>Automated dashboards that reduced manual reporting by 60%.</li>
+              <li>Partnered with growth teams to prioritize experiments.</li>
+            </ul>
+          </div>
+          <div class="resume-card">
+            <h3>Analytics Consultant · Brightside</h3>
+            <p class="muted">2019 — 2022</p>
+            <ul>
+              <li>Modeled revenue forecasting for 10+ subscription clients.</li>
+              <li>Designed tracking plans across web and mobile products.</li>
+              <li>Presented insights to executive stakeholders.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="blogs" class="section dark">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Blogs</p>
+            <h2>Recent essays and tutorials</h2>
+          </div>
+          <a class="ghost" href="#">View all posts</a>
+        </div>
+        <div class="grid three">
+          <article class="blog-card">
+            <p class="tag">Essay</p>
+            <h3>Designing a metric stack for executive reporting</h3>
+            <p>
+              How to balance storytelling with statistical rigor when communicating
+              performance to leadership.
+            </p>
+            <span class="muted">Read time · 6 min</span>
+          </article>
+          <article class="blog-card">
+            <p class="tag">Tutorial</p>
+            <h3>From raw data to a customer health score</h3>
+            <p>
+              A step-by-step walkthrough on building a weighted scoring model with
+              SQL and Python.
+            </p>
+            <span class="muted">Read time · 9 min</span>
+          </article>
+          <article class="blog-card">
+            <p class="tag">Notes</p>
+            <h3>What I learned shipping my first anomaly detector</h3>
+            <p>
+              Practical lessons from building alerting systems that catch issues
+              before users notice them.
+            </p>
+            <span class="muted">Read time · 4 min</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Current and upcoming data analysis work</h2>
+          </div>
+          <a class="ghost" href="#">Project archive</a>
+        </div>
+        <div class="grid three">
+          <div class="project-card">
+            <h3>City mobility dashboard</h3>
+            <p>
+              Interactive Tableau dashboard exploring public transit reliability and
+              rider sentiment across neighborhoods.
+            </p>
+            <div class="card-meta">
+              <span>Tableau</span>
+              <span>Survey data</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Pricing elasticity study</h3>
+            <p>
+              Regression models that quantify price sensitivity and identify optimal
+              promotion windows.
+            </p>
+            <div class="card-meta">
+              <span>Python</span>
+              <span>Statsmodels</span>
+            </div>
+          </div>
+          <div class="project-card upcoming">
+            <h3>Future project: Climate risk tracker</h3>
+            <p>
+              A living repository of climate risk metrics, open datasets, and
+              dashboards to inform impact reporting.
+            </p>
+            <div class="card-meta">
+              <span>Coming soon</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section callout">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something useful together.</h2>
+          <p class="lead">
+            Reach out for analytics consulting, speaking engagements, or collaboration
+            on new research.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="primary" href="mailto:hello@yourname.com">Email me</a>
+          <a class="secondary" href="#blogs">Read the blog</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2024 YourName. Built with clarity and curiosity.</p>
+      <div class="footer-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Newsletter</a>
+      </div>
+    </footer>
+  </body>
+</html>
